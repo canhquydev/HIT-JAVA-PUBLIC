@@ -9,7 +9,6 @@ public class bai1 {
         }while(r <= 0 || r >= 1000);
         P = 2*r*pi;
         S = r*r*pi;
-        System.out.printf("%.3f%n", P);
-        System.out.printf("%.3f%n", S);
+        System.out.printf("%.3f %.3f%n", P, S);
     }
 }
